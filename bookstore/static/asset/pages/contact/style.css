@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f6f6f6;
+}
+.Contact {
+    font-family: Heebo, sans-serif; 
+    color: #565A61;
+}
+.element_title {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+.Contact p{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+/* Contact-container */
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Căn đều khoảng cách giữa các phần */
+    flex-direction: row;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info, .contact-form, .social-icons {
+    flex: 1; /* Mỗi phần chiếm 1/3 chiều rộng */
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #6a5acd;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #565A61;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* min-width: 700px; */
+}
+
+.contact-form h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form p {
+    margin-bottom: 30px;
+    color: #7a7a7a;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #5a4bb5;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.social-icons i {
+    width: 60px;
+    height: 60px;
+}
+
+/* speaking-events */
+.speaking-events {
+    height: 50vh;
+ 
+    background-image: url(https://greenedu.vn/wp-content/uploads/2023/07/mC3B4-t-public-speaking.jpg);
+    background-attachment: fixed;
+  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+.speaking {
+    padding: 0 50px;
+}
+.speaking h1 {
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+    max-width: 450px;
+}
+
+.speaking p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 4px solid white;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: black;
+}
+/* be first to known */
+.subscribe-container {
+    text-align: center;
+    /* border: 120px solid #fff; */
+    /* max-width: 500px; */
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subscribe-container h1 {
+    font-size: 3rem;
+    color: #42505a;
+    margin-bottom: 25px;
+}
+
+.subscribe-container p {
+    color: #1f1f20;
+    margin-bottom: 35px;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Heebo:wght@100..900&display=swap");
+
+:root {
+    --color-background1: #f1f5f8;
+    --color-text: #565a61;
+    --color-cart: #4d3bc6;
+    --color-button: #5f4ecb;
+    --color-footer: #25272d;
+    --font-title: "EB Garamond", serif;
+    --font-description: "Heebo", sans-serif;
+}
+body {
+    font-family: var(--font-description);
+    background-color: var(--color-background1);
+    color: var(--color-text);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.card {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #fff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-family: var(--font-title);
+}
+
+.btn-primary {
+    background-color: var(--color-button);
+    border: none;
+}
+
+.btn-primary:hover {
+    /* background-color: darken(var(--color-button), 10%); */
+    background-color: var(#5f4ecb);
+}
+
+.input-group-text {
+    background-color: var(--color-background1);
+    border: none;
+}
+
+.form-control {
+    border: 1px solid var(--color-text);
+}
+
+.form-control:focus {
+    border-color: var(--color-button);
+    box-shadow: none;
+}

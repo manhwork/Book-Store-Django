@@ -1,0 +1,239 @@
+/*  section-1  */
+.section-1 {
+    background: var(--color-background1);
+}
+
+.section-1 .row {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 .inner-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1 .inner-content .inner-new {
+    padding: 30px 0;
+    font-size: 15px;
+    color: var(--color-button);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section-1 .inner-title {
+    font-size: 48px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    padding: 20px 0;
+    color: var(--coler-footer);
+}
+
+.section-1 .inner-desc1 {
+    font-weight: bold;
+}
+
+/* end section-1  */
+
+/*  section-2  */
+.section-2 {
+    background: var(--color-background1);
+}
+
+.section-2 .row {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .inner-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-2 .inner-content .inner-new {
+    padding: 30px 0;
+    font-size: 15px;
+    color: var(--color-button);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section-2 .inner-title {
+    font-size: 48px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    padding: 20px 0;
+    color: var(--coler-footer);
+}
+
+.section-2 .inner-desc1 {
+    font-weight: bold;
+}
+/* end section-2  */
+
+/* section-3 */
+.section-3 {
+    background: var(--color-background1);
+}
+
+.section-3 .row {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3 .inner-box {
+    width: 22%;
+}
+
+.section-3 .inner-box > * {
+    margin-bottom: 15px;
+}
+
+.section-3 .inner-title {
+    color: var(--coler-footer);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-3 .inner-desc {
+    font-size: 15px;
+}
+/* end section-3 */
+
+/* section-4 */
+.section-4 {
+    background: var(--color-background1);
+}
+.section-4 .row {
+    padding: 80px 0;
+}
+
+.section-4 .inner-head {
+    text-align: center;
+}
+
+.section-4 .inner-head .inner-title {
+    font-size: 48px;
+    color: var(--coler-footer);
+    font-weight: 600;
+    font-family: var(--font-title);
+    margin-bottom: 30px;
+}
+
+.section-4 .inner-head .inner-desc {
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.section-4 .inner-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4 .inner-box {
+    width: 20%;
+}
+
+.section-4 .inner-main .inner-cate {
+    font-size: 15px;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 1.3;
+    opacity: 0.6;
+}
+
+.section-4 .inner-main .inner-title {
+    font-size: 18px;
+    font-family: var(--font-title);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.section-4 .inner-main .inner-price {
+    font-weight: bold;
+}
+
+.section-4 .inner-btn {
+    text-align: center;
+    padding: 70px 0;
+}
+/* end section-4 */
+
+/*  section-5 */
+.section-5 {
+    background: var(--color-background1);
+}
+.section-5 .inner-head {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.section-5 .inner-head .inner-title {
+    font-family: var(--font-title);
+    font-size: 48px;
+    color: var(--coler-footer);
+    margin-bottom: 40px;
+}
+
+.section-5 .inner-head .inner-desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.section-5 .inner-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5 .inner-box {
+    width: 20%;
+}
+
+.section-5 .inner-box > * {
+    margin-bottom: 20px;
+}
+
+.section-5 .inner-box .inner-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--coler-footer);
+    font-family: var(--font-title);
+}
+
+.section-5 .inner-display > * {
+    margin-right: 10px;
+    color: var(--color-button);
+    font-size: 13px;
+}
+
+/* end section-5 */
+
+/* section-6 */
+.section-6 {
+    background: var(#ffffff);
+}
+
+.section-6 .row {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section-6 .inner-title {
+    font-size: 48px;
+    color: var(--coler-footer);
+    font-weight: 600;
+    font-family: var(--font-title);
+    padding: 30px 0;
+}
+
+.section-6 .inner-desc {
+    font-size: 18px;
+}
+/* end section-6 */

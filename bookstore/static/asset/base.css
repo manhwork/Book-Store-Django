@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Heebo:wght@100..900&display=swap");
+
+:root {
+    --color-background1: #f1f5f8;
+    --color-text: #565a61;
+    --color-cart: #4d3bc6;
+    --color-button: #5f4ecb;
+    --coler-footer: #25272d;
+    --font-title: "EB Garamond", serif;
+    --font-description: "Heebo", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-description);
+    color: var(--color-text);
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--coler-footer);
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    border: 1px solid var(--color-button);
+    color: var(--color-button);
+    background: transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-top: 15px;
+    padding-right: 23px;
+    padding-bottom: 15px;
+    padding-left: 23px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    background: var(--color-button);
+    color: #ffffff;
+}
+
+.button-1 {
+    background: var(--color-button);
+    color: white;
+}
+/* Header  */
+.header {
+    background: var(--color-background1);
+}
+
+.header .row {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .inner-menu {
+    display: flex;
+    /* flex: 0.5; */
+    color: var(--color-text);
+}
+
+.header .inner-menu li {
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.header .inner-feature {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .inner-feature > * {
+    margin-right: 20px;
+}
+
+.header .inner-feature > *:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .inner-feature:nth-child(3) {
+    margin-right: 0;
+}
+
+.header .login {
+    font-size: 15px;
+}
+
+.header .sign {
+    font-size: 15px;
+}
+
+.header .inner-menu a:hover {
+    font-weight: bold;
+}
+
+/* End Header  */
+
+/* Footer */
+.footer {
+    background: var(--coler-footer);
+}
+
+.footer .row {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .inner-menu {
+    display: flex;
+    /* flex: 0.5; */
+}
+
+.footer .inner-menu li {
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.footer .inner-icon {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer .inner-icon > * {
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.footer .inner-copy {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* End Footer */
