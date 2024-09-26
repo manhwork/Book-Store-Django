@@ -4,5 +4,11 @@ from django.shortcuts import render
 
 
 def index(request):
-    context = {}
-    return render(request,"home/index.html",context)
+    return render(request,"home/index.html",{
+        "title" : "Home",
+    })
+
+def books(request):
+    return render(request,"books/index.html",{
+        "title" : "Books",
+    })

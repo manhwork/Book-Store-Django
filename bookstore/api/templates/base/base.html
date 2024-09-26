@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static './asset/reset.css' %}" />
+    <link rel="stylesheet" href="{% static './asset/base.css' %}" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="inner-logo">
+            <img src="{% static 'images/site-logo.svg' %}" alt="" />
+          </div>
+
+          <ul class="inner-menu">
+            <a href="/"><li>Home</li></a>
+            <a href="/books"><li>Books</li></a>
+            <a href="#"><li>About Author</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+
+          <div class="inner-feature">
+            <a href="login.html" class="login">Sign in</a>
+            <a href="" class="sign">Sign up</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href=""><div style="color: var(--color-cart)" class="ineer-price">$0.00</div></a>
+          </div>
+          <a href=""><i style="color: var(--color-cart)" class="fa-solid fa-cart-plus"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    {% block base %}
+
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="inner-logo">
+            <img src="{% static 'images/site-logo-white.svg' %}" alt="" />
+          </div>
+
+          <ul class="inner-menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Books</li></a>
+            <a href="#"><li>About Author</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+
+          <div class="inner-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="inner-copy">
+          <p>Copyright © 2024 Book Store | Powered by Book Store</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
