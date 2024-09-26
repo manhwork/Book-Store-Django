@@ -1,0 +1,146 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block base %}
+    <link rel="stylesheet" href="{% static './asset/pages/author_about/style.css' %}" />
+
+    <!-- section1 -->
+    <section class="section-1">
+        <div class="container">
+            <div class="row">
+                <h1 class="inner-title">Author About</h1>
+                <p class="inner-desc">
+                    Porttitor in nibh id aliquet quam aliquam aliquet
+                    pulvinar integer dolor quis elementum, dui <br />
+                    cursus nisi, nunc viverra nulla fringilla.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <img src="{% static 'images/author-book-store-biography-img-1.jpg' %}" alt="">
+                <img src="{% static 'images/author-book-store-author-img.jpg' %}" alt="">
+                <div class="inner-content">
+                    <div class="inner-head">"</div>
+                    <div class="inner-desc">Elementum neque nulla mauris faucibus lorem nisl, eget quis duis amet
+                        lobortis
+                        non enim viverra feugiat vitae.
+                    </div>
+                    <div class="inner-foot">
+                        John Roberts
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section-3">
+        <div class="container">
+            <h2 class="inner-title">
+                Award Winning Author
+            </h2>
+            <p class = "inner-desc">
+                Etiam donec fusce id hendrerit feugiat mauris etiam aenean ipsum eu iaculis integer gravida massa facilisi aliquam venenatis turpis proin nunc ac viverra sed ac pharetra non sit elit ullamcorper viverra tristique.
+            </p>
+            <p class="inner-desc">Sem eget sed pulvinar erat leo tortor bibendum orci, ac donec elementum sed et bibendum odio libero sed erat volutpat est quam congue praesent felis sed cras viverra feugiat et vitae adipiscing et nullam etiam placerat viverra nibh mi euismod orci neque vulputate varius vestibulum ante eget viverra iaculis velit, ultricies ante eget at placerat ac tincidunt facilisi augue neque condimentum volutpat sed dolor.</p>
+            <p class="inner-desc">Magna tellus pulvinar vitae adipiscing imperdiet viverra nunc, egestas sem vel turpis amet ut fusce sagittis, quisque suspendisse fames eget risus quam posuere eu massa, consequat nec vestibulum fermentum velit nunc, dictum dui orci urna vitae est morbi purus amet, tortor elementum eu convallis turpis nibh odio enim.</p>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="section-4">
+        <div class="container">
+          <div class="row">
+            <div class="status">
+              <span class="value">100K+</span>
+              <span class="label">COPIES SOLD</span>
+            </div>
+            <div class="status">
+              <span class="value">19</span>
+              <span class="label">BOOKS</span>
+            </div>
+            <div class="status">
+              <span class="value">4</span>
+              <span class="label">AWARDS</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="section-5">
+        <div class="section-5-award">
+            <img src="{% static 'images/best-author-awards-2012.svg' %}" alt="Best Author Awards 2012">
+            <h3>Best Author Awards 2012</h3>
+            <p>Arcu pellentesque nisi consectetur netus aenean metus sit mattis sit sed.</p>
+        </div>
+        <div class="section-5-award">
+            <img src="{% static 'images/Best-Author-Awards.svg' %}" alt="World's #1 Best-selling Book">
+            <h3>World's #1 Best-selling Book</h3>
+            <p>Diam nibh non in enim nunc suscipit risus, adipiscing aenean quisque viverra.</p>
+        </div>
+        <div class="section-5-award">
+            <img src="{% static 'images/Best-selling-Author.svg' %}" alt="NYT Best-selling Author 2014">
+            <h3>NYT Best-selling Author 2014</h3>
+            <p>Urna donec dolor bibendum lectus arcu purus eget nisl, ut nisl vitae.</p>
+        </div>
+        <div class="section-5-award">
+            <img src="{% static 'images/Best-selling-Book.svg' %}" alt="Best Author Awards 2018">
+            <h3>Best Author Awards 2018</h3>
+            <p>Morbi odio sodales et facilisis mi nibh fringilla quis risus ultricies facilisis.</p>
+        </div>
+      </section>
+      
+    <!-- Section 6 -->
+    <section class="section-6">
+    <div class="container">
+    <div class="timeline-item">
+        <div class="year">1986</div>
+        <h4 class="title">My First Book</h4>
+        <p class="description">Quisque suspendisse fames eget risus quam posuere eu massa, consequat nec vestibulum fermentum velit nunc, dictum dui orci urna vitae.</p>
+    </div>
+    
+    <div class="timeline-item">
+        <div class="year">1992</div>
+        <h4 class="title">Released on Store</h4>
+        <p class="description">Aliquam mattis lorem fermentum neque, quam arcu malesuada id quis est adipiscing in fringilla nulla ultricies.</p>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1998</div>
+        <h4 class="title">US Bestselling Book</h4>
+        <p class="description">Ultrices ultrices sed ultrices suspendisse quisque in etiam adipiscing ligula rhoncus vivamus tincidunt amet sem cursus hendrerit nulla.</p>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">1999</div>
+        <h4 class="title">My First Award</h4>
+        <p class="description">Cras amet amet in egestas nibh vestibulum feugiat bibendum tempus ut ultricies risus aliquam vestibulum malesuada vitae sit.</p>
+    </div>
+
+    <div class="timeline-item">
+        <div class="year">2006</div>
+        <h4 class="title">World's #1 Bestselling Author</h3>
+        <p class="description">Curabitur malesuada turpis mauris mollis eget tincidunt lacus fusce purus dolor hac viverra viverra sagittis augue purus venenatis.</p>
+    </div>
+    </div>
+    </section>
+      
+    <!-- Section 7 -->
+    <section class="section-7">
+        <div class="container">
+            <div class="row">
+                <h1 class="inner-title">Be the first to know</h1>
+                <p class="inner-desc">
+                    Lectus amet scelerisque fusce est venenatis, eget enim
+                    <br />
+                    dolor amet vitae pharetra
+                </p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
