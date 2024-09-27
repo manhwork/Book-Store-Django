@@ -19,28 +19,23 @@
             <img src="{% static 'images/site-logo.svg' %}" alt="" />
           </div>
 
-          <div class="inner-main">
-            <ul class="inner-menu">
-              <a href="/"><li>Home</li></a>
-              <a href="/books"><li>Books</li></a>
-              <a href="/author_about"><li>About Author</li></a>
-              <a href="#"><li>Blog</li></a>
-              <a href="#"><li>Contact</li></a>
-              <a href="login.html" class="login"><li>Sign in</li></a>
-              <a href="" class="sign"><li>Sign up</li></a>
-            </ul>
+          <ul class="inner-menu">
+            <a href="/"><li>Home</li></a>
+            <a href="/books"><li>Books</li></a>
+            <a href="/author_about"><li>About Author</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
 
-            <div class="inner-filter">
-              <div class="inner-feature">
-                {% comment %} <i class="fa-solid fa-magnifying-glass"></i> {% endcomment %}
-                <form action="post">
-                  <input type="text" class="textbox" placeholder="Search" />
-                  <input title="Search" value="" type="submit" class="inner-btn" />
-                </form>
-                <a href=""><div style="color: var(--color-cart)" class="ineer-price">$0.00</div></a>
-                <a href=""><i style="color: var(--color-cart)" class="fa-solid fa-cart-plus"></i></a>
-              </div>
-            </div>
+          <div class="inner-feature">
+            <a href="/login" class="login">Sign in</a>
+            <a href="/register" class="sign">Sign up</a>
+            <form show-filter action="POST" class="inner-form">
+              <input type="text" name="title" class="input-filter" placeholder="Search..." id="" />
+            </form>
+            {% comment %} <span form-filter class="filter"><i class="fa-solid fa-magnifying-glass"></i></span> {% endcomment %}
+            <a href=""><div style="color: var(--color-cart)" class="ineer-price">$0.00</div></a>
+            <a href=""><i style="color: var(--color-cart)" class="fa-solid fa-cart-plus"></i></a>
           </div>
         </div>
       </div>
@@ -80,5 +75,7 @@
       </div>
     </footer>
     <!-- End Footer -->
+
+    <script src="{% static 'js/script.js' %}"></script>
   </body>
 </html>
