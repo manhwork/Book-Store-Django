@@ -1,0 +1,79 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block base %}
+  <link rel="stylesheet" href="{% static './asset/pages/blog/style.css' %}" />
+
+  <div class = "ast-container">
+           
+    <article class="post">
+        <div class="post-image">
+            <img src="https://websitedemos.net/book-store-02/wp-content/uploads/sites/834/2021/05/author-book-store-blog-img-03.jpg" alt="Rowing on a lake">
+        </div>
+
+        <div class="post-content">
+            <h2>Outing justo morbi wild</h2>
+            <p class="post-meta">
+                <a href="#" class="comment-link">Leave a Comment</a> /
+                <a href="#" class="category-link">Uncategorized</a> / 
+                <a href="#" class="author-link">akbarh</a>
+            </p>
+            <p class="post-description">
+                Aliquam sed in egestas gravida amet mattis sagittis, semper morbi vitae, egestas blandit duis facilisis adipiscing fermentum aenean nunc nibh accumsan, ornare enim at interdum mi arcu, ut magna ultrices odio dictumst aliquam tincidunt dictum pharetra vestibulum aliquam aliquet suspendisse. Sed et aliquam tincidunt ut sed porttitor nunc et etiam molestie arcu donec venenatis nulla [...]
+            </p>
+            <a href="#" class="read-more">Read More »</a>
+        </div>
+        
+    </article>
+
+    <article class="post">
+        <div class="post-image">
+            <img src="https://websitedemos.net/book-store-02/wp-content/uploads/sites/834/2021/05/author-book-store-blog-img-02.jpg" alt="Train">
+        </div>
+
+        <div class="post-content">
+            <h2>Eget elementum on train</h2>
+            <p class="post-meta">
+                <a href="#" class="comment-link">Leave a Comment</a> / 
+                <a href="#" class="category-link">Uncategorized</a> / 
+                <a href="#" class="author-link">akbarh</a>
+            </p>
+            <p class="post-description">
+                Aliquam sed in egestas gravida amet mattis sagittis, semper morbi vitae, egestas blandit duis facilisis adipiscing fermentum aenean nunc nibh accumsan, ornare enim at interdum mi arcu, ut magna ultrices odio dictumst aliquam tincidunt dictum pharetra vestibulum aliquam aliquet suspendisse. Sed et aliquam tincidunt ut sed porttitor nunc et etiam molestie arcu donec venenatis nulla [...]
+            </p>
+            <a href="#" class="read-more">Read More »</a>
+        </div>
+        
+    </article>
+
+    <article class="post">
+        <div class="post-image">
+            <img src="https://websitedemos.net/book-store-02/wp-content/uploads/sites/834/2021/05/author-book-store-blog-img-01.jpg" alt="Pagoda">
+        </div>
+
+        <div class="post-content">
+            <h2>Visit sagittis malesuada vestibulum</h2>
+            <p class="post-meta">
+                <a href="#" class="comment-link">Leave a Comment</a> / 
+                <a href="#" class="category-link">Uncategorized</a> / 
+                <a href="#" class="author-link">akbarh</a>
+            </p>
+            <p class="post-description">
+                Aliquam sed in egestas gravida amet mattis sagittis, semper morbi vitae, egestas blandit duis facilisis adipiscing fermentum aenean nunc nibh accumsan, ornare enim at interdum mi arcu, ut magna ultrices odio dictumst aliquam tincidunt dictum pharetra vestibulum aliquam aliquet suspendisse. Sed et aliquam tincidunt ut sed porttitor nunc et etiam molestie arcu donec venenatis nulla
+            </p>
+            <a href="#" class="read-more">Read More »</a>
+        </div>
+        
+    </article>
+
+</div>
+<!-- be first to know -->
+<div class="subscribe-container">
+<h1>Be the first to know</h1>
+<p>Lectus amet scelerisque fusce est venenatis, eget enim dolor amet vitae pharetra</p>
+<form class="subscribe-form">
+    <input type="email" placeholder="Your email please" required>
+    <button type="submit">Subscribe</button>
+</form>
+</div>
+{% endblock %}

@@ -1,9 +1,8 @@
 .ast-container {
     background-color: #f6f6f6;
     font-size: 14px; 
-    font-family: Heebo, sans-serif; 
-    /* display: flex;
-    justify-content: center; */
+    font-family: var(--font-description); 
+    
 }
 
 .post {
@@ -72,6 +71,7 @@
     font-size: 3rem;
     color: #42505a;
     margin-bottom: 25px;
+    
 }
 
 .subscribe-container p {
