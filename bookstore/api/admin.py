@@ -25,10 +25,10 @@ from django.utils.html import format_html
 # admin.site.register(Product, ProductAdmin)
 # admin.site.register(Category, CategoryAdmin)
 
-# from.models import *
-# admin.site.register(Book)
-# admin.site.register(Category)
-# admin.site.register(Blog)
-# admin.site.register(CategoryBlog)
-# admin.site.register(Author)
-# admin.site.register(Review)
+from.models import *
+admin.site.register(Book)
+admin.site.register(Category)
+admin.site.register(Blog)
+admin.site.register(CategoryBlog)
+admin.site.register(Author)
+admin.site.register(Review)
