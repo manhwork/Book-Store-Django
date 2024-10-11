@@ -1,0 +1,60 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block base %}
+  <link rel="stylesheet" href="{% static './asset/pages/contact/style.css' %}" />
+
+  <div class="Contact">
+    <h1 class="element_title">
+        Contact
+    </h1>
+    <p>
+        Porttitor in nibh id aliquet quam aliquam aliquet pulvinar integer dolor quis elementum, dui cursus nisi,
+        nunc viverra nulla fringilla.
+    </p>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>MAIL ME</h2>
+            <p>mail@example.com</p>
+            <p>info@example.com</p>
+        </div>
+        <div class="contact-form">
+            <h1>Send a Message</h1>
+            <p>Ultrices dui maecenas quisque cras dui sed porttitor aliquam morbi libero egestas lacus sed.</p>
+            <form>
+                <input type="text" name="fullname" placeholder="Full name" required>
+                <input type="email" name="email" placeholder="Email address" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+
+</div>
+<!-- speaking-events -->
+<div class="speaking-events">
+    <div class="speaking">
+        <h1>Speaking - Events</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+            pulvinar dapibus leo.
+        </p>
+    </div>
+    <a href="https://example.com" class="contact-button">Contact Me</a>
+</div>
+<!-- be first to know -->
+ 
+<div class="subscribe-container">
+    <h1>Be the first to know</h1>
+    <p>Lectus amet scelerisque fusce est venenatis, eget enim dolor amet vitae pharetra</p>
+
+</div>
+{% endblock %}
