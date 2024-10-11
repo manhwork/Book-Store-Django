@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.html import format_html
-from .models import Product, Category
+# from .models import Product, Category
 
 # Register your models here.
 
@@ -24,3 +24,11 @@ from .models import Product, Category
 
 # admin.site.register(Product, ProductAdmin)
 # admin.site.register(Category, CategoryAdmin)
+
+# from.models import *
+# admin.site.register(Book)
+# admin.site.register(Category)
+# admin.site.register(Blog)
+# admin.site.register(CategoryBlog)
+# admin.site.register(Author)
+# admin.site.register(Review)

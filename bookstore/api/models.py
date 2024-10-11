@@ -1,7 +1,8 @@
 from django.db import models
 from django.utils.text import slugify
 from django.utils.html import mark_safe
-
+# from django.db import User 
+from django.contrib.auth.models import User
 
 class Book(models.Model):
     title = models.CharField(max_length=255)
@@ -78,7 +79,7 @@ class Author(models.Model):
 
 class Review(models.Model):
     idBook = models.ForeignKey('Book', on_delete=models.CASCADE)
-    idUser = models.ForeignKey('User', on_delete=models.CASCADE)
+    idUser = models.ForeignKey(User, on_delete=models.CASCADE)
     cmt = models.TextField()
 
 # class Category(models.Model):
