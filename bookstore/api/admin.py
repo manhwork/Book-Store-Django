@@ -20,6 +20,11 @@ class CategoryAdmin(admin.ModelAdmin):
     list_filter = ["isActive"]
     actions = [make_active, make_inactive]
 
+    def image_tag(self, obj):
+        if obj.image : 
+            return format_html('<img src="{}" width= 100px  />'.format(obj.image.url))
+        return "No Image"
+
 
 class BookAdmin(admin.ModelAdmin):
     list_display = ("image","Category","Author","title","price","discountPer","stock",  "isActive","isOutStanding")
