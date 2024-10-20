@@ -44,12 +44,15 @@
       <div class="row">
         <h1 class="inner-more">More Books</h1>
         <div class="inner-main">
-          <div class="inner-box">
-            <img class="inner-img" src="{% static 'images/author-book-store-book-cover-06-300x450.jpg' %}" alt="" />
-            <div class="inner-cate">Fantasy</div>
-            <div class="inner-title">The Born of APLEX</div>
-            <div class="inner-price">$26.00</div>
-          </div>
+          {% for item in books  %}
+            <div class="inner-box">
+              <img class="inner-img" src="/{{item.image}}" alt="" height="200"/>
+              <div class="inner-cate">{{item.category}}</div>
+              <div class="inner-title">{{item.title}}</div>
+              <div class="inner-price">{{item.price}}</div>
+            </div>
+            
+          {% endfor %}
           <div class="inner-box">
             <img class="inner-img" src="{% static 'images/author-book-store-book-cover-06-300x450.jpg' %}" alt="" />
             <div class="inner-cate">Fantasy</div>
