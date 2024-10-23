@@ -28,6 +28,8 @@
           </ul>
 
           <div class="inner-feature">
+            <span class="login">Hello {{request.user}}</span>
+            <span class="login"><a href = "{% url 'logout' %}">Logout</a></span>
             <a href="/login" class="login">Sign in</a>
             <a href="/register" class="sign">Sign up</a>
             <form show-filter action="POST" class="inner-form">
